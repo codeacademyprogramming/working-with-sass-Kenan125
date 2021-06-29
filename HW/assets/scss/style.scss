@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+
+ .col-1{
+     height: 80px;
+     width: 80px;
+     background-color: salmon;
+     border:  2px solid black;
+ }
+
+}
+
+
+
+// Common
+@import "./mixins";
+@import "./variables";
+@import "./_base";
+@import "./typography";
+
+// Pages
+@import "./pages/about";
+@import "./pages/index"
